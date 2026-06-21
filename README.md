@@ -17,21 +17,32 @@
   <b>Building High-Performance Solutions & Automated Ecosystems</b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Projects-emerald?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-Scalable%20Architecture-0A192F?style=flat-square" />
-</p>
-
 ---
 
-### 💼 Overview & Expertise
-
-I am **OSTAD**, a Software Engineer and Full-Stack Developer specializing in automating financial workflows, creating intelligent interfaces, and architecting robust backend systems.
-
-*   🤖 **Telegram Bot Ecosystems:** Advanced, database-driven, subscription-based VIP bots, custom automation, and high-traffic interactive interfaces.
-*   📈 **Algorithmic Trading & FinTech:** Low-latency execution bots (Crypto/Forex), WebSockets integrations, and custom Prop Firm dashboards.
-*   🌐 **Full-Stack Web Applications:** High-end dynamic websites, secure Admin Panels, customized CRM architectures, and automated payment gateways.
-*   ⚙️ **AI Integration & Core Infrastructure:** Embedding Large Language Models (LLMs), designing heavy data pipelines, and building scalable REST APIs.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" dir="ltr">
+      <h3>💼 About Me</h3>
+      I am <b>OSTAD</b>, a Software Engineer and Full-Stack Developer specializing in automating financial workflows, creating intelligent interfaces, and architecting robust backend systems.
+      <ul>
+        <li><b>Telegram Bot Ecosystems:</b> Advanced, database-driven VIP bots, automation, and interactive high-traffic setups.</li>
+        <li><b>Algorithmic Trading & FinTech:</b> Low-latency execution bots (Crypto/Forex), WebSockets, and Prop Firm platforms.</li>
+        <li><b>Full-Stack Web Apps:</b> High-end dynamic websites, secure Admin Panels, and customized CRM architectures.</li>
+        <li><b>AI & Infrastructure:</b> Embedding LLMs, heavy data pipelines, and scalable REST APIs.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top" dir="rtl">
+      <h3>💼 درباره من</h3>
+      من <b>استاد (OSTAD)</b> هستم؛ معمار نرم‌افزار و توسعه‌دهنده فول‌استک. تمرکز من روی خلق ابزارهای هوشمند و سیستم‌های مقیاس‌پذیری است که کسب‌وکارها و فرآیندهای مالی را کاملاً خودکار می‌کنند.
+      <ul>
+        <li><b>ربات‌های پیشرفته تلگرام:</b> پیاده‌سازی ربات‌های VIP متصل به د دیتابیس، سیستم‌های اشتراکی و ابزارهای اتوماسیون.</li>
+        <li><b>سیستم‌های مالی و پراپ فرم:</b> طراحی ربات‌های ترید فرکانس بالا (Crypto/Forex)، وب‌سوکت و پلتفرم‌های پراپ فرم.</li>
+        <li><b>توسعه وب و پلتفرم‌های وب:</b> راه‌اندازی وب‌سایت‌های اختصاصی، پنل‌های مدیریت مدرن و معماری‌های CRM.</li>
+        <li><b>هوش مصنوعی و زیرساخت:</b> ادغام مدل‌های زبانی (LLMs)، خطوط پردازش داده و توسعه REST APIهای سریع.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -39,18 +50,10 @@ I am **OSTAD**, a Software Engineer and Full-Stack Developer specializing in aut
 
 <table align="center" width="100%">
   <tr>
-    <td align="center" width="25%" bgcolor="#0d1117">
-      🗣️ <b>Languages</b>
-    </td>
-    <td align="center" width="25%" bgcolor="#0d1117">
-      ⚙️ <b>Backend & APIs</b>
-    </td>
-    <td align="center" width="25%" bgcolor="#0d1117">
-      🎨 <b>Frontend & UI</b>
-    </td>
-    <td align="center" width="25%" bgcolor="#0d1117">
-      🗄️ <b>DB & DevOps</b>
-    </td>
+    <td align="center" width="25%" bgcolor="#0f172a">🗣️ <b>Languages</b></td>
+    <td align="center" width="25%" bgcolor="#0f172a">⚙️ <b>Backend & APIs</b></td>
+    <td align="center" width="25%" bgcolor="#0f172a">🎨 <b>Frontend & UI</b></td>
+    <td align="center" width="25%" bgcolor="#0f172a">🗄️ <b>DB & DevOps</b></td>
   </tr>
   <tr>
     <td align="left" valign="top">
@@ -82,25 +85,55 @@ I am **OSTAD**, a Software Engineer and Full-Stack Developer specializing in aut
 
 ---
 
-### 📂 Architecture & System Models
+### 📂 Architecture & System Models / نمونه مدل‌ها و معماری پروژه‌ها
 
-#### 📊 1. Prop Firm Evaluation Platform
-*   **Concept:** A comprehensive multi-step evaluation portal tracking trader metrics, equity drawdowns, and objective parameters in real-time.
-*   **Architecture:** `Next.js` responsive front-end synced via secure `WebSockets` to a `FastAPI` engine monitoring MetaTrader/Match-Trader manager APIs, utilizing `Redis` for live-state caching and `PostgreSQL` for historical sync.
-
-#### 🤖 2. Advanced Interactive Telegram Bot
-*   **Concept:** Fully scalable automation bot featuring crypto gateway integrations, user-tiered referrals, and immediate channel/group moderation panels.
-*   **Architecture:** Developed with asynchronous `Node.js` (`Telegraf`), deployed inside isolated `Docker` containers, using webhooks to handle volatile concurrent traffic peaks smoothly.
-
-#### ⚡ 3. High-Frequency Algorithmic Trading (HFT) Bot
-*   **Concept:** Latency-optimized execution program connecting directly to spot/futures exchange streams to dynamically execute algorithmic models.
-*   **Architecture:** Pure `Python` (`Asyncio`), processing real-time order-book feeds over streaming connections, structured with strict local logging mechanisms for zero-loss trade journaling.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top" dir="ltr">
+      <h4>📊 1. Prop Firm Evaluation Platform</h4>
+      <ul>
+        <li><b>Concept:</b> Multi-step portal tracking trader metrics and drawdowns in real-time.</li>
+        <li><b>Architecture:</b> <code>Next.js</code> front-end synced via <code>WebSockets</code> to a <code>FastAPI</code> engine monitoring trading APIs, utilizing <code>Redis</code> and <code>PostgreSQL</code>.</li>
+      </ul>
+      <h4>🤖 2. Advanced Interactive Telegram Bot</h4>
+      <ul>
+        <li><b>Concept:</b> High-traffic bot featuring crypto gateways and tiered referrals.</li>
+        <li><b>Architecture:</b> Async <code>Node.js</code> (Telegraf), deployed inside <code>Docker</code> containers using webhooks for high concurrency.</li>
+      </ul>
+      <h4>⚡ 3. Algorithmic Trading (HFT) Bot</h4>
+      <ul>
+        <li><b>Concept:</b> Latency-optimized execution program connecting to exchange streams.</li>
+        <li><b>Architecture:</b> Pure <code>Python</code> (Asyncio) processing live order-books over streaming connections.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top" dir="rtl">
+      <h4>📊 ۱. پلتفرم جامع پراپ فرم</h4>
+      <ul>
+        <li><b>مفهوم:</b> پورتال چندمرحله‌ای برای نظارت آنی بر حساب‌ها، مدیریت ریسک و درودان تریدرها.</li>
+        <li><b>معماری:</b> فرانت‌بند <code>Next.js</code> متصل از طریق <code>WebSockets</code> به هسته <code>FastAPI</code> جهت پایش APIهای معاملاتی با هماهنگی <code>Redis</code> و <code>PostgreSQL</code>.</li>
+      </ul>
+      <h4>🤖 ۲. ربات پیشرفته و تعاملی تلگرام</h4>
+      <ul>
+        <li><b>مفهوم:</b> ربات مقیاس‌پذیر مجهز به درگاه پرداخت کریپتو، زیرمجموعه‌گیری و مدیریت هوشمند.</li>
+        <li><b>معماری:</b> توسعه‌یافته با <code>Node.js</code> ناهمگام (Telegraf) بر بستر <code>Docker</code> با قابلیت پاسخ‌دهی سریع Webhook.</li>
+      </ul>
+      <h4>⚡ ۳. ربات ترید الگوریتمی فرکانس بالا (HFT)</h4>
+      <ul>
+        <li><b>مفهوم:</b> برنامه بهینه‌سازی شده برای اجرای استراتژی‌ها با کمترین تاخیر در بازار فیوچرز.</li>
+        <li><b>معماری:</b> بک‌اند خالص <code>Python</code> (Asyncio) جهت پردازش دیتای زنده اردر بوک روی اتصالات استریم.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📨 Contact & Collaboration
+### 📨 Contact & Collaboration / ارتباط با من
 
-Looking for elite development or corporate consultation? Connect directly via the secure channel below:
+<p align="center">
+  <b>Looking for elite development? Connect directly via the secure button below:</b><br/>
+  <b>جهت مشاوره و سفارش پروژه از طریق دکمه رسمی زیر در تلگرام در ارتباط باشید:</b>
+</p>
 
 <p align="center">
   <a href="https://t.me/arthropath" target="_blank">
@@ -109,5 +142,5 @@ Looking for elite development or corporate consultation? Connect directly via th
 </p>
 
 <p align="center">
-  <i>"Building the Future with Code, AI & Automation."</i>
+  <i>"Building the Future with Code, AI & Automation / خلق آینده با کدنویسی و هوش مصنوعی"</i>
 </p>
