@@ -142,5 +142,5 @@
 </p>
 
 <p align="center">
-  <i>"Building the Future with Code, AI & Automation / خلق آینده با کدنویسی و هوش مصنوعی"</i>
+  <i>Building the Future with Code, AI & Automation  خلق آینده با کدنویسی و هوش مصنوعی</i>
 </p>
