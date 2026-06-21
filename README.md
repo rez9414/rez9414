@@ -6,6 +6,7 @@
 ██║   ██║╚════██║   ██║   ██╔══██║██║  ██║██║     ██║   ██║██║  ██║██╔══╝  ██║     
 ╚██████╔╝███████║   ██║   ██║  ██║██████╔╝╚██████╗╚██████╔╝██████╔╝███████╗╚██████╗
  ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═════╝  ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝
+</pre>
 </p>
 
 <h3 align="center">
@@ -13,63 +14,93 @@
 </h3>
 
 <p align="center">
-  <b>طراح و توسعه‌دهنده سیستم‌های هوشمند، پلتفرم‌های تحت وب و اتوماسیون پیشرفته</b>
+  <b>Building High-Performance Solutions & Automated Ecosystems</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available%20for%20Projects-emerald?style=flat-square" />
-  <img src="https://img.shields.io/badge/Focus-High%20Performance%20Backends-0A192F?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-Scalable%20Architecture-0A192F?style=flat-square" />
 </p>
 
 ---
 
-### 💼 درباره من و حوزه‌های فعالیت
+### 💼 Overview & Expertise
 
-من **استاد (OSTAD)** هستم؛ معمار نرم‌افزار و توسعه‌دهنده فول‌استک. تمرکز من روی خلق ابزارهای هوشمند و سیستم‌های مقیاس‌پذیری است که کسب‌وکارها و فرآیندهای مالی را اتوماتیک می‌کنند.
+I am **OSTAD**, a Software Engineer and Full-Stack Developer specializing in automating financial workflows, creating intelligent interfaces, and architecting robust backend systems.
 
-* 🤖 **طراحی و ساخت ربات‌های تلگرام:** پیاده‌سازی ربات‌های پیشرفته، متصل به دیتابیس، سیستم‌های اشتراکی، ربات‌های ارجاعی (Referral) و ابزارهای مدیریت کانال و گروه.
-* 📈 **سیستم‌های معاملاتی و الگوریتمی:** طراحی ربات‌های ترید تیک‌به-تیک، اتصال به اکسپرت‌های متاتریدر، صرافی‌های کریپتو و پلتفرم‌های معاملاتی.
-* 🌐 **طراحی و توسعه وب‌سایت:** راه‌اندازی پلتفرم‌های اختصاصی، پلتفرم‌های **پراپ فرم (Prop Firm)**، داشبوردهای مدیریتی مدرن و بازارهای معاملاتی دیجیتال.
-* ⚙️ **هوش مصنوعی و خودکارسازی:** ادغام مدل‌های زبانی (LLMs)، پردازش داده‌ها و اتوماسیون کامل فرآیندهای سنتی.
-
----
-
-### 🛠️ ابزارها و تکنولوژی‌ها (Tech Stack)
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
+*   🤖 **Telegram Bot Ecosystems:** Advanced, database-driven, subscription-based VIP bots, custom automation, and high-traffic interactive interfaces.
+*   📈 **Algorithmic Trading & FinTech:** Low-latency execution bots (Crypto/Forex), WebSockets integrations, and custom Prop Firm dashboards.
+*   🌐 **Full-Stack Web Applications:** High-end dynamic websites, secure Admin Panels, customized CRM architectures, and automated payment gateways.
+*   ⚙️ **AI Integration & Core Infrastructure:** Embedding Large Language Models (LLMs), designing heavy data pipelines, and building scalable REST APIs.
 
 ---
 
-### 📂 نمونه مدل‌ها و معماری پروژه‌ها
+### 🛠️ Tech Stack & Advanced Toolkit
 
-> جهت آشنایی با متدولوژی کاری من، چند نمونه از ساختارهای پیاده‌سازی شده به شرح زیر است:
-
-#### ۱. پلتفرم جامع پراپ فرم (Prop Firm Platform)
-* **توضیحات:** سیستم کامل مدیریت سرمایه و ارزیابی تریدرها متصل به حساب‌های دمو و واقعی (MetaTrader/Match-Trader).
-* **معماری:** فرانت‌اند با Next.js جهت لودینگ سریع داشبورد + بک‌اند FastAPI برای پردازش آنی متاتریدر و مدیریت ریسک + دیتابیس PostgreSQL و Redis برای کش کردن آمار معاملات.
-
-#### ۲. ربات هوشمند مدیریت و سیگنال‌دهی تلگرام (Advanced Telegram Bot)
-* **توضیحات:** ربات پیشرفته VIP با درگاه پرداخت خودکار، سیستم رفرال و اتصال بهTradingView جهت ارسال سیگنال.
-* **معماری:** توسعه‌یافته با Node.js (Telegraf) بر پایه کانتینرهای Docker، مجهز به لایه احراز هویت هوشمند و وب‌سوکِت جهت پایداری بالا در زمان شلوغی بازار.
-
-#### ۳. ربات تریدینگ الگوریتمی فرکانس بالا (HFT Trading Bot)
-* **توضیحات:** سیستم خودکار اجرای استراتژی‌های معاملاتی بر روی فیوچرز صرافی‌ها با کمترین تاخیر (Latency).
-* **معماری:** بک‌اند خالص پایتون همگام (Asyncio)، اتصال دائم WebSocket به صرافی و استفاده از پایگاه داده لایت‌ویت برای ثبت دقیق لاگ‌ها و ژورنال معاملاتی.
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="25%" bgcolor="#0d1117">
+      🗣️ <b>Languages</b>
+    </td>
+    <td align="center" width="25%" bgcolor="#0d1117">
+      ⚙️ <b>Backend & APIs</b>
+    </td>
+    <td align="center" width="25%" bgcolor="#0d1117">
+      🎨 <b>Frontend & UI</b>
+    </td>
+    <td align="center" width="25%" bgcolor="#0d1117">
+      🗄️ <b>DB & DevOps</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /><br/>
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+    </td>
+    <td align="left" valign="top">
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+    </td>
+    <td align="left" valign="top">
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" /><br/>
+      <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+    </td>
+    <td align="left" valign="top">
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 📨 ارتباط با من (Contact)
+### 📂 Architecture & System Models
 
-برای مشاوره، سفارش پروژه و همکاری در فروش، از طریق دکمه رسمی و بزرگ زیر در تلگرام پیام بگذارید:
+#### 📊 1. Prop Firm Evaluation Platform
+*   **Concept:** A comprehensive multi-step evaluation portal tracking trader metrics, equity drawdowns, and objective parameters in real-time.
+*   **Architecture:** `Next.js` responsive front-end synced via secure `WebSockets` to a `FastAPI` engine monitoring MetaTrader/Match-Trader manager APIs, utilizing `Redis` for live-state caching and `PostgreSQL` for historical sync.
+
+#### 🤖 2. Advanced Interactive Telegram Bot
+*   **Concept:** Fully scalable automation bot featuring crypto gateway integrations, user-tiered referrals, and immediate channel/group moderation panels.
+*   **Architecture:** Developed with asynchronous `Node.js` (`Telegraf`), deployed inside isolated `Docker` containers, using webhooks to handle volatile concurrent traffic peaks smoothly.
+
+#### ⚡ 3. High-Frequency Algorithmic Trading (HFT) Bot
+*   **Concept:** Latency-optimized execution program connecting directly to spot/futures exchange streams to dynamically execute algorithmic models.
+*   **Architecture:** Pure `Python` (`Asyncio`), processing real-time order-book feeds over streaming connections, structured with strict local logging mechanisms for zero-loss trade journaling.
+
+---
+
+### 📨 Contact & Collaboration
+
+Looking for elite development or corporate consultation? Connect directly via the secure channel below:
 
 <p align="center">
   <a href="https://t.me/arthropath" target="_blank">
@@ -78,5 +109,5 @@
 </p>
 
 <p align="center">
-  <i>"خلق آینده با کدنویسی، هوش مصنوعی و اتوماسیون"</i>
+  <i>"Building the Future with Code, AI & Automation."</i>
 </p>
